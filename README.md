@@ -1,2 +1,2 @@
 # jannisfink.de
-This are the sources for my website
+These are the sources for my website
