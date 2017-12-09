@@ -35,10 +35,11 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            JannisFink
+twitter:            default
 facebook:           default
 instagram:          default
 github:             jannisfink
+gitlab:             jannisfink
 
 # personal
 location:           Bremen, Germany
