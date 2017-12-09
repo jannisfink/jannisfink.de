@@ -22,3 +22,5 @@ deploy:
   script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/_dist travisci@jannisfink.de:/home/travisci/jannisfink.de
   on:
     branch: master
+
+sudo: false
