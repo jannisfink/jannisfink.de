@@ -20,7 +20,7 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/_dist travisci@jannisfink.de:/home/travisci/jannisfink.de
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/_site travisci@jannisfink.de:/home/travisci/jannisfink.de
   on:
     branch: master
 
