@@ -1,118 +1,28 @@
 ---
 layout: null
-title: Jannis Fink
-description: Hi and welcome around here.
 sitemap:
     priority: 1.0
     lastmod: 2017-12-09
     changefreq: weekly
 ---
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-  Jekyll integration by somiibo.com
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-    {% include head.html %}
-
-
+			{% include head.html %}
 	</head>
-	<body class="is-loading">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+	<body>
+			<div id="wrapper">
 
-				<!-- Intro -->
+					{% include header.html %}
 					<div id="intro">
-            <h1>{{site.title}}</h1>
-						<h2>{{site.description}}</h2>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
+							<div class="intro-container">
+									<h1>{{site.title}}</h1>
+									<h1>{{site.description}}</h1>
+							</div>
 					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-
-            {% include nav.html %}
-
-						<ul class="icons">
-              <!--<li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
-              <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>-->
-							<li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-							<li><a href="https://gitlab.com/{{site.gitlab}}" class="icon fa-gitlab" rel="nofollow"><span class="label">GitLab</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="/">{{page.description}}</a></h2>
-									<p>My name is Jannis, and I do programming for a living.</p>
-								</header>
-								<a href="/" class="image main"><img src="{{ "/images/moon-homepage.jpg" | absolute_url }}" alt="" /></a>
-
-								<p>
-									<i>TODO: add content</i>
-								</p>
-
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Sponsored</h2>
-  									</header>
-
-  								</article>
-                  {% endif %}
-                {% endfor %}
-
-							</section>
-
-						<!-- Footer -->
-							<footer>
-                <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">My Blog</a></li>
-                </ul>
-							</footer>
-
-					</div>
-
-				<!-- Footer -->
-        {% include foot.html %}
+					{% include footer.html %}
 
 			</div>
-
-		<!-- Scripts -->
-		{% include scripts-main.html %}
-    {% include tracking.html %}
-
 	</body>
 </html>

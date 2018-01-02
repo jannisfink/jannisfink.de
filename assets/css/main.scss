@@ -1,0 +1,74 @@
+---
+---
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+
+body {
+    background-color: #3B2626;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 80%;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+#wrapper {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+/* Helpers */
+
+.right {
+    float: right;
+}
+
+.links {
+    list-style-type: none;
+    padding: 1em 0;
+    margin: 0;
+    display: flex;
+}
+
+.links a {
+    padding: 0 1rem;
+}
+
+.links > li:not(:first-child)::before {
+    content: "|";
+}
+
+/* Helpers End */
+
+/* Home Page specific */
+
+#intro {
+    text-align: center;
+}
+
+#intro .intro-container {
+    display: inline-block;
+    text-align: left;
+}
+
+#intro h1 {
+    margin: 0;
+}
+
+/* Home Page specific End */
