@@ -88,6 +88,18 @@ a {
 
 /* Home Page specific End */
 
+/* Blog specific stuff */
+
+.date {
+    font-size: 80%;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+
+    float: right;
+}
+
+/* Blog specific stuff End*/
+
 .page-content {
     flex-grow: 1;
 
@@ -96,5 +108,9 @@ a {
     .page-content-container {
         max-width: $content-max-width;
         margin: 0 auto,
+    }
+
+    img {
+        width: 100%;
     }
 }
