@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "constants";
+
 * {
     box-sizing: border-box;
 }
@@ -16,8 +18,20 @@ body {
     background-color: #3B2626;
 
     font-family: "Source Code Pro", monospace;
-    font-size: 80%;
     color: white;
+    transition: font-size .3s;
+
+    @media screen and (max-width: $break-small) {
+        font-size: 80%;
+    }
+
+    @media screen and (min-width: $break-small) and (max-width: $break-large) {
+        font-size: 100%;
+    }
+
+    @media screen and (min-width: $break-large) {
+        font-size: 120%;
+    }
 }
 
 a {
@@ -41,17 +55,17 @@ a {
 
 .links {
     list-style-type: none;
-    padding: 1em 0;
+    padding: $content-free-space 0;
     margin: 0;
     display: flex;
-}
 
-.links a {
-    padding: 0 1rem;
-}
+    a {
+        padding: 0 $content-free-space;
+    }
 
-.links > li:not(:first-child)::before {
-    content: "|";
+    & > li:not(:first-child)::before {
+        content: "|";
+    }
 }
 
 /* Helpers End */
@@ -60,15 +74,27 @@ a {
 
 #intro {
     text-align: center;
-}
+    padding: $content-free-space;
 
-#intro .intro-container {
-    display: inline-block;
-    text-align: left;
-}
+    .intro-container {
+        display: inline-block;
+        text-align: left;
+    }
 
-#intro h1 {
-    margin: 0;
+    h1 {
+        margin: 0;
+    }
 }
 
 /* Home Page specific End */
+
+.page-content {
+    flex-grow: 1;
+
+    padding: $content-free-space;
+
+    .page-content-container {
+        max-width: $content-max-width;
+        margin: 0 auto,
+    }
+}
