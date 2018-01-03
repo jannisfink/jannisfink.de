@@ -12,27 +12,26 @@
 			<div class="page-content">
 					<div class="page-content-container">
 
-					<article class="post featured">
-						<header class="major">
+					<article>
+						<header>
 						<h2>My Blog</h2>
 						<p>
 							There isn't much here right now, and there might not be for a while. I will just leave this page here as a reminder for myself that blogging could
 							be cool in the (near) future...
 						</p>
 						</header>
-
 					</article>
 
-					<section class="posts">
+					<section>
 						{% for post in site.posts %}
 							<article>
 								<header>
 									<span class="date">{{ post.date | date_to_string }}</span>
 									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
 								</header>
-								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+								<a href="{{ post.url | absolute_url }}"><img src="{{ post.image | absolute_url }}" alt="" /></a>
 								<p>{{ post.excerpt }}</p>
-								<a href="{{ post.url | absolute_url }}" class="button">more...</a>
+								<a href="{{ post.url | absolute_url }}">more...</a>
 							</article>
 						{% endfor %}
 
