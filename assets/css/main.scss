@@ -2,6 +2,7 @@
 ---
 
 @import "constants";
+@import "highlight/fruity";
 
 * {
     box-sizing: border-box;
@@ -36,6 +37,16 @@ body {
 
 a {
     color: white;
+}
+
+.highlight {
+    padding: $content-free-space-small $content-free-space;
+    margin: $content-free-space;
+    font-size: 80%;
+
+    & * {
+        font-family: "Source Code Pro", monospace;
+    }
 }
 
 #wrapper {
