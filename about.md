@@ -14,6 +14,6 @@ working as a trainee in a software company in Germany while going to university 
 as ["Duales Studium"](http://dualesstudiuminformatik.de/) here in Germany.
 
 The main focus of my current work is the web. I've spend the past ~5+ years building various web applications for work and
-private projects. I will showcase some of them in the near future on this site.
+private projects. I have some of them [showcased here]({{"/projects/" | absolute_url}}).
 
 When I'm not working on the computer, I love to row, dance (standard) or read a book amongst various other things.

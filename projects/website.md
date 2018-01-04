@@ -14,8 +14,10 @@ sitemap:
 
 With this I am experimenting with [jekyll](https://jekyllrb.com/). It's my first website I build using a static site generator like jekyll is.
 
-While I'm quite familiar with the web and webdesign, I'm not really good at designing good looking pages. This page is based on a template named
-[Massively](https://html5up.net/massively) which was provided by [HTML5 UP](https://html5up.net/).
+The design I have developed by myself. It's this simple mainly because of two reasons:
 
-For deployment I'm, using [Travis CI](https://travis-ci.org/). The source code for this page is hosted on Github. Every time I push on the `master` branch
+1. I like it so
+1. I'm not that good at designing stuff that is visually appealing
+
+For deployment, I'm using [Travis CI](https://travis-ci.org/). The source code for this page is hosted on Github. Every time I push on the `master` branch
 of this website's repository, a build is triggered and the generated HTML files are automatically deployed on my server.
