@@ -2,6 +2,7 @@
 ---
 
 @import "constants";
+@import "helpers";
 @import "highlight/fruity";
 
 * {
@@ -16,11 +17,9 @@ html, body {
 }
 
 body {
-    background-color: #3B2626;
+    transition: font-size .3s, color .3s, background-color .3s ease;
 
-    font-family: "Source Code Pro", monospace;
-    color: white;
-    transition: font-size .3s;
+    font-family: 'Source Code Pro', monospace;
 
     @media screen and (max-width: $break-small) {
         font-size: 80%;
@@ -35,9 +34,13 @@ body {
     }
 }
 
-a {
-    color: white;
-}
+// Color themes
+@include theme("default", white, #3B2626);
+@include theme("sublime", #F92672, #272822);
+@include theme("monokai", #66CCB3, #272822);
+@include theme("eclipse", #7F0055, white);
+@include theme("solarized-light", #D33682, #FDF6E3);
+// Color themes end
 
 .highlight {
     padding: $content-free-space-small $content-free-space;
@@ -64,6 +67,10 @@ a {
     float: right;
 }
 
+.left {
+    float: left;
+}
+
 .links {
     list-style-type: none;
     padding: $content-free-space 0;
@@ -77,6 +84,10 @@ a {
     & > li:not(:first-child)::before {
         content: "|";
     }
+}
+
+.theme-select {
+    padding: $content-free-space 0;
 }
 
 /* Helpers End */

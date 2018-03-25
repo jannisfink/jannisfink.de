@@ -1,0 +1,10 @@
+@mixin theme($name, $color, $bgColor) {
+    .theme--#{$name} {
+        color: $color;
+        background-color: $bgColor;
+
+        a {
+            color: $color;
+        }
+    }
+}
