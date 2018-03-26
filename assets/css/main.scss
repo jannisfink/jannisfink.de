@@ -20,6 +20,10 @@ body {
     animation: fadein 1s;
     transition: font-size .3s, color .3s, background-color .3s ease;
 
+    a {
+        transition: font-size .3s, color .3s, background-color .3s ease;
+    }
+
     font-family: 'Source Code Pro', monospace;
 
     @media screen and (max-width: $break-small) {
