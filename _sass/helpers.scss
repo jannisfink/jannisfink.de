@@ -1,10 +1,18 @@
-@mixin theme($name, $bgColor, $color) {
+@mixin theme($name, $bgColor, $color, $keywordColor) {
     .theme--#{$name} {
         color: $color;
         background-color: $bgColor;
 
+        .kw {
+            color: $keywordColor;
+        }
+
         a {
             color: $color;
+
+            .kw {
+                color: $keywordColor;
+            }
         }
     }
 }

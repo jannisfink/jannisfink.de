@@ -1,6 +1,32 @@
 var themes = ['default', 'sublime', 'monokai', 'eclipse', 'solarized-light'];
+var keywords = ['for', 'is', 'from', 'or', 'of', 'in', 'with'];
+
+function KeywordHighlighter(element) {
+    this.element = element;
+}
+
+KeywordHighlighter.prototype.parse = function() {
+    for (var i = 0; i < this.element.children.length; i++) {
+        var child = this.element.children[i];
+        var p = new KeywordHighlighter(child);
+        p.parse();
+    }
+
+    var elems = this.element.innerHTML.split(" ");
+    var newElems = elems.map(function(elem) {
+        keywords.forEach(function(keyword) {
+            if (elem === keyword) {
+                elem = '<span class="kw">' + keyword + '</span>';
+            }
+        });
+        return elem;
+    });
+
+    this.element.innerHTML = newElems.join(" ");
+}
 
 restoreThemeFromLocalStorage();
+setKeywordClass();
 
 (function (){
     var sel = createSelect();
@@ -33,6 +59,12 @@ function restoreThemeFromLocalStorage() {
         return;
     }
     setActiveTheme(theme);
+}
+
+function setKeywordClass() {
+    var content = document.getElementsByClassName('page-content')[0];
+    var highlighter = new KeywordHighlighter(content);
+    highlighter.parse();
 }
 
 function getActiveTheme() {
