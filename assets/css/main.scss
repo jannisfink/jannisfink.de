@@ -45,11 +45,11 @@ body {
 }
 
 // Color themes
-@include theme("default", white, #3B2626);
-@include theme("sublime", #F92672, #272822);
-@include theme("monokai", #66CCB3, #272822);
-@include theme("eclipse", #7F0055, white);
-@include theme("solarized-light", #D33682, #FDF6E3);
+@include theme("default", #3B2626, white);
+@include theme("sublime", #272822, #F92672);
+@include theme("monokai", #272822, #66CCB3);
+@include theme("eclipse", white, #7F0055);
+@include theme("solarized-light", #FDF6E3, #D33682);
 // Color themes end
 
 .highlight {

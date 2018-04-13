@@ -1,4 +1,4 @@
-@mixin theme($name, $color, $bgColor) {
+@mixin theme($name, $bgColor, $color) {
     .theme--#{$name} {
         color: $color;
         background-color: $bgColor;
