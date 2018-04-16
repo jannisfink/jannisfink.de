@@ -1,5 +1,5 @@
 var themes = ['default', 'sublime', 'monokai', 'eclipse', 'solarized-light'];
-var keywords = ['for', 'is', 'from', 'or', 'of', 'in', 'with'];
+var keywords = ['for', 'is', 'from', 'or', 'of', 'in', 'with', 'do', 'while'];
 
 function KeywordHighlighter(element) {
     this.element = element;
