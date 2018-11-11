@@ -1,6 +1,6 @@
 # Site
 title:              "Jannis Fink"
-description:        "Student - Software Developer."
+description:        "Software Developer."
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
