@@ -3,7 +3,7 @@ title:              "Jannis Fink"
 description:        "Software Developer."
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://jannisfink.de" # the base hostname & protocol for your site
 
 defaults:
 - scope:
