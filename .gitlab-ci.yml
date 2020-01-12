@@ -8,7 +8,7 @@ cache:
 stages:
   - bundle
 
-bundle:
+pages:
   stage: bundle
   before_script:
     - ruby -v  # Print out ruby version for debugging
