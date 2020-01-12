@@ -12,7 +12,7 @@ bundle:
   stage: bundle
   before_script:
     - ruby -v  # Print out ruby version for debugging
-    - sudo gem install bundler
+    - gem install bundler
     - bundle install -j $(nproc) --path vendor  # Install dependencies into ./vendor/ruby
     - chmod +x ./_script/cibuild  # or do this locally and commit
   script:
