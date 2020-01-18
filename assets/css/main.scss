@@ -45,7 +45,7 @@ body {
 }
 
 // Color themes
-@include theme("default", #3B2626, white, #7d7c7c);
+@include theme("default", #3B2626, white, #cbcaca);
 @include theme("sublime", #272822, #52E3F6, #F92672);
 @include theme("monokai", #272822, white, #66CCB3);
 @include theme("eclipse", white, #006600, #7F0055);
