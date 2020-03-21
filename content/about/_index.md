@@ -8,4 +8,4 @@ working as a trainee in a software company in Germany while going to university 
 as ["Duales Studium"](http://dualesstudiuminformatik.de/) here in Germany.
 
 The main focus of my current work is the web. I've spend the past ~8+ years building various web applications for work and
-private projects. I have some of them [showcased here](/projects).
+private projects. I have some of them [showcased here](/portfolio).

@@ -25,10 +25,6 @@ theme = "personal-web"
   gitlab = "https://gitlab.com/jannisfink"
   tech = "https://dev.to/jannisfink"
 
-[params.contact]
-  email = "hey@jannisfink.de"
-  text= "hey@jannisfink.de"
-
 [menu]
 
 [[menu.main]]
