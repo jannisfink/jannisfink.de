@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Jannis Fink"
 copyright="© Jannis Fink"
 
+publishDir = "build"
+
 theme = "personal-web"
 
 [params]
