@@ -1,23 +1,27 @@
-image: "ruby:2.3"
-
-# Cache gems in between builds
-cache:
-  paths:
-    - vendor/ruby
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
 
 stages:
   - bundle
+  - publish
+
+build:
+  stage: bundle
+  script:
+    - hugo
+  artifacts:
+    paths:
+      - build
+  image: monachus/hugo
 
 pages:
-  stage: bundle
+  stage: publish
   before_script:
-    - ruby -v  # Print out ruby version for debugging
-    - bundle install -j $(nproc) --path vendor  # Install dependencies into ./vendor/ruby
-    - chmod +x ./_script/cibuild  # or do this locally and commit
   script:
-    - ./_script/cibuild
+    - mv build public
   artifacts:
     paths:
       - public
   only:
     - master
+  image: alpine

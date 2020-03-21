@@ -1,0 +1,43 @@
+baseURL = "https://jannisfink.de/"
+languageCode = "en-us"
+title = "Jannis Fink"
+copyright="© Jannis Fink"
+
+publishDir = "build"
+enableEmoji=true
+
+theme = "personal-web"
+
+[params]
+  accentColor = "#112f41"
+  mainSections = ["post", "portfolio"]
+
+[params.intro]
+  main = "Hello, I'm Jannis Fink"
+  sub = "I'm a software developer"
+
+[params.sidebar]
+  logo = "images/me.jpg"
+  backgroundImage = "images/bg.jpg"
+
+[params.social]
+  github = "https://github.com/jannisfink"
+  twitter = "https://twitter.com/JannisFink"
+  gitlab = "https://gitlab.com/jannisfink"
+  tech = "https://dev.to/jannisfink"
+
+[menu]
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "About section"
+  url = "/about"
+  weight = -120
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  title = "Blog section"
+  url = "/blog"
+  weight = -100
