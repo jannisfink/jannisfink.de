@@ -11,7 +11,11 @@ stages:
 
 build:
   stage: bundle
-  script
+  script:
+    - hugo
+  artifacts:
+    paths:
+      - build
 
 pages:
   stage: publish
