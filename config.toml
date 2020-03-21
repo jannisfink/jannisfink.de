@@ -4,6 +4,7 @@ title = "Jannis Fink"
 copyright="© Jannis Fink"
 
 publishDir = "build"
+enableEmoji=true
 
 theme = "personal-web"
 
