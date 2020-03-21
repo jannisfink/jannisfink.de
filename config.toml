@@ -8,7 +8,7 @@ publishDir = "build"
 theme = "personal-web"
 
 [params]
-  accentColor = "#FD3519"
+  accentColor = "#112f41"
   mainSections = ["post", "portfolio"]
 
 [params.intro]
