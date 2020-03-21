@@ -9,6 +9,7 @@ theme = "personal-web"
 
 [params]
   accentColor = "#FD3519"
+  mainSections = ["post", "portfolio"]
 
 [params.intro]
   main = "Hello, I'm Jannis Fink"
