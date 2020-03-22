@@ -13,7 +13,7 @@ theme = "personal-web"
   mainSections = ["post", "portfolio"]
 
 [params.intro]
-  main = "Hello, I'm Jannis Fink"
+  main = "Hello, I'm Jannis"
   sub = "I'm a software developer"
 
 [params.sidebar]
