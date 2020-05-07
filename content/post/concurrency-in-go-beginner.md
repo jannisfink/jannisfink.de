@@ -1,10 +1,14 @@
 ---
 title: Concurrency in Go from a beginners perspective
 description: In this post, I will present my findings of wrinting concurrent code using Go
-tags: ["Go"]
+tags: 
+  - Go
+categories:
+  - Development
 work: []
 date: 2020-05-07T20:55:12+02:00
 publishDate: 2020-05-07T20:55:12+02:00
+draft: true
 ---
 
 I am developing software for a few years now. But one topic I never really touched is concurrency.

@@ -8,6 +8,9 @@ enableEmoji=true
 
 theme = "personal-web"
 
+[permalinks]
+  post = "blog/:year/:month/:title/"
+
 [params]
   accentColor = "#112f41"
   mainSections = ["post", "portfolio"]
