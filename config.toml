@@ -38,5 +38,5 @@ theme = "personal-web"
   identifier = "blog"
   name = "Blog"
   title = "Blog section"
-  url = "/post"
+  url = "/blog"
   weight = -100
