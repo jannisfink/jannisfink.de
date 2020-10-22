@@ -1,6 +1,6 @@
 ---
 title: My homepage
-description: My hoempage is generated using the static site generator "Hugo"
+description: My homepage is generated using the static site generator "Hugo"
 date: "2020-03-21T19:30:15+02:00"
 jobDate: 2020
 work: [Hugo]
