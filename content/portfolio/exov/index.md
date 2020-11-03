@@ -4,7 +4,7 @@ description: ExOv displays the income and expenses of all your accounts. Built w
 date: "2020-10-22T20:30:15+02:00"
 jobDate: 2020
 work: [Golang, Postgres, Kubernetes, React, Typescript]
-thumbnail: exov/exov.png
+thumbnail: exov/exov.v2.png
 projectUrl: https://exov.org
 ---
 
