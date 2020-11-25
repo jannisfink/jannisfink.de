@@ -32,7 +32,7 @@ theme = "personal-web"
 
 [params.contact]
   email = "hey@jannisfink.de"
-  text= "hey@jannisfink.de"
+  text= "Contact"
 
 [menu]
 
