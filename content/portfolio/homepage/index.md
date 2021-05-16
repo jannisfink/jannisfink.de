@@ -15,7 +15,7 @@ For many people, jekyll is the static site generator of choice, so when I wanted
 The design pictured below is the old design of my homepage.
 It is the result of my trying to design a new website from scratch.
 
-![Old design of my homepage](/portfolio/homepage/homepage_old.png "Old design of my homepage")
+![Old design of my homepage](/portfolio/homepage/homepage_old.webp "Old design of my homepage")
 
 At that time, I already came across several other static site generators, with Hugo being the one alternative I wanted to try first.
 I was not unsatisfied with jekyll itself, but wanted to try something else nevertheless. I may outline my reasoning in a future blog post.
