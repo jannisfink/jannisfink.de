@@ -4,7 +4,7 @@ description: budgow displays the income and expenses of all your accounts. It he
 date: "2021-04-22T20:30:15+02:00"
 jobDate: 2021
 work: [Golang, Postgres, Kubernetes, React, Typescript]
-thumbnail: budgow/budgow.v1.png
+thumbnail: budgow/budgow.v1.webp
 projectUrl: https://budgow.com
 ---
 

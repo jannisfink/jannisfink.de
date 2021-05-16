@@ -4,7 +4,7 @@ description: My homepage is generated using the static site generator "Hugo"
 date: "2020-03-21T19:30:15+02:00"
 jobDate: 2020
 work: [Hugo]
-thumbnail: homepage/homepage.png
+thumbnail: homepage/homepage.webp
 projectUrl: https://jannisfink.de
 ---
 

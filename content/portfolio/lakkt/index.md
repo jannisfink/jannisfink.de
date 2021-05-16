@@ -4,7 +4,7 @@ description: LaKKT is an analysis tool for the strategy game Lords & Knights
 date: "2016-05-02T19:47:09+02:00"
 jobDate: 2016
 work: [PHP, MSSQL]
-thumbnail: lakkt/lakkt.png
+thumbnail: lakkt/lakkt.webp
 projectUrl: https://lakkt.de
 ---
 

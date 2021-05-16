@@ -22,8 +22,8 @@ theme = "personal-web"
   latestPublishHeader = "My Latest Project"
 
 [params.sidebar]
-  logo = "images/me.jpg"
-  backgroundImage = "images/bg.jpg"
+  logo = "images/me.webp"
+  backgroundImage = "images/bg.webp"
 
 [params.social]
   github = "https://github.com/jannisfink"
