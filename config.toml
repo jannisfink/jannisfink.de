@@ -1,7 +1,7 @@
 baseURL = "https://jannisfink.de/"
 languageCode = "en-us"
 title = "Jannis Fink"
-copyright="© Jannis Fink"
+copyright="© 2021 - Jannis Fink"
 
 publishDir = "build"
 enableEmoji = true
@@ -37,10 +37,10 @@ theme = "personal-web"
 [menu]
 
 [[menu.main]]
-  identifier = "about"
-  name = "About"
-  title = "About section"
-  url = "/about"
+  identifier = "portfolio"
+  name = "Portfolio"
+  title = "Portfolio"
+  url = "/portfolio"
   weight = -120
 
 [[menu.main]]
