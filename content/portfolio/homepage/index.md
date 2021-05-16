@@ -22,3 +22,4 @@ I was not unsatisfied with jekyll itself, but wanted to try something else never
 
 When I ported my homepage to Hugo, I started from scratch and did not port the theme, but instead opted for one that already existed, [Personal Web](https://themes.gohugo.io/personal-web/).
 The whole process of porting everything was done in one day, with the result being this webpage.
+It is currently served by GitLab Pages and uses Cloudflare for some SSL specific settings that cannot be set for GitLab Pages.
