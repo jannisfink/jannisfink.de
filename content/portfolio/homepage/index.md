@@ -10,7 +10,7 @@ projectUrl: https://jannisfink.de
 
 I build my homepage using the static site generator [Hugo](https://gohugo.io/).
 Previously, I have been using with [jekyll](https://jekyllrb.com/).
-For many people, jekyll is the static site generator of choice, so when I wanted to create my personal homepage using such a tool, jekyll seemed to be the logical choice.
+For many people, jekyll is the static site generator of choice, so when I wanted to create my personal homepage using such a tool, jekyll seemed to be the way to go.
 
 The design pictured below is the old design of my homepage.
 It is the result of my trying to design a new website from scratch.
