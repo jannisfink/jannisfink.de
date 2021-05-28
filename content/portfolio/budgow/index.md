@@ -16,9 +16,9 @@ Right now, it is not possible for anybody (except me) to create an account and l
 
 The backend is build using Golang, with a PostgreSQL database.
 The frontend uses React and Typescript.
-While I'm very happy with the basic tech stack (PostgreSQL + Golang + Typescript), the rest of the stack still needs some refactoring out.
-At first, I had used [beego](https://beego.me) for everything (router + ORM).
-Since then I have switched to [Gorilla](https://www.gorillatoolkit.org/) for the router, which gave me much more control and ease of use.
+While I'm very happy with the basic tech stack (PostgreSQL + Golang + Typescript), the rest of the stack still needs some figuring out.
+At first, I had used [beego](https://beego.me) for almost everything (router + ORM).
+Since then I have switched to [Gorilla](https://www.gorillatoolkit.org/) for the router, which gave me much more control and better integration into my error handling and access control.
 The ORM still uses beego. It works, but has some rough edges, so I will most likely remove it medium term.
 
 For the frontend, I used to use [Redux](https://redux.js.org/) with React, for data fetching and caching I used [Redux-Saga](https://redux-saga.js.org/).
