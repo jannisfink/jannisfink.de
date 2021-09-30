@@ -2,23 +2,23 @@ variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 stages:
-#  - bundle
+  - bundle
   - publish
 
-#build:
-#  stage: bundle
-#  script:
-#    - hugo
-#  artifacts:
-#    paths:
-#      - build
-#  image: monachus/hugo
+build:
+  stage: bundle
+  script:
+    - hugo
+  artifacts:
+    paths:
+      - build
+  image: monachus/hugo
 
 pages:
   stage: publish
   before_script:
   script:
-    - mv index.html public
+    - mv build public
   artifacts:
     paths:
       - public
